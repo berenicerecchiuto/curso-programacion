@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,900&family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contacto,
+#inicio {
+    background-image: url("../images/images/fondo-contacto.png");
+    background-size: cover;
+}
+
+#proyectos {
+    background-image: url("../images/images/fondo-proyectos.png");
+    background-size: cover;
+}
+
+header {
+    font-size: 17px;
+}
+
+h1 {
+    color: #E20000;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    color: #6a6a6a;
+    font-size: 20;
+}
+
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.btn-rojo {
+    color: white;
+    background-color: #d61d1d;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.btn-rojo:hover {
+    color: white;
+    background-color: #370a6d;
+}
+
+.link-rojo {
+    color: #d61d1d;
+    text-decoration: none;
+}
+
+
+footer .fa-whatsapp {
+    position: fixed;
+    right: 45px;
+    padding: 15px;
+    bottom: 0px;
+    background-color: #370a6d;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#contacto footer,
+#inicio footer {
+    color: white;
+}
+
+#contacto footer a,
+#inicio footer a {
+    color: white;
+}
+
+#contacto footer .fa-github,
+#inicio footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+#contacto footer .fa-linkedin-in,
+#inicio footer .fa-linkedin-in {
+    color: #d61d1d;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+#proyectos p {
+    font-size: 16px;
+}
+
+#proyectos footer,
+footer a {
+    color: #d61d1d;
+    font-size: 18px;
+}
+
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color: #d61d1d;
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: #d61d1d;
+    background-color: white;
+    font-size: 20px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.proyecto {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.proyecto h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    padding: 18px;
+}
+
+.proyecto img {
+    height: 215px;
+}
+
+.proyecto p {
+    font-size: 14px;
+    height: 130px;
+    margin-bottom: 20%;
+}
+
+#inicio img {
+    height: 400px;
+}
+
+#inicio img:hover {
+    height: 410px;
+}
+
+.cohete {
+    height: 410px;
+}
+
+#inicio p {
+    color: white;
+    font-size: 17px;
+    border: 1px white solid;
+    border-radius: 15px;
+    font-weight: 600;
+}
+#sobre-mi h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+#sobre-mi .fotoperfil img {
+    height: 300px;
+}
+
+#stack-tecnologico h2 {
+    font-size: 24px;
+    color: white;
+}
+
+#stack-tecnologico h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+#stack-tecnologico .tecnologia img {
+    height: 55px;
+}
+
+#stack-tecnologico .tecnologia {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 170px;
+}
+
+#stack-tecnologico {
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+
+}
+#formacion img{
+    height: 100px;
+}
+#hobbies{
+    background: #eeeeee;
+    margin-top: 4%;
+    padding: 12px;
+}
+
+#hobbies ul{
+    list-style-type: none;
+    color: #000000;
+    font-size: 14px;
+
+}
+#hobbies h2{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+#hobbies .card1{
+    height: 180px;
+    color: white;
+    background-color: #370a6d;
+    width: 180px;
+    border-radius: 20px;
+    font-size: 100px;
+}
+#hobbies .card2{
+    height: 180px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
