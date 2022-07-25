@@ -44,7 +44,7 @@ p {
 
 .btn-rojo {
     color: white;
-    background-color: #d61d1d;
+    background-color: #E20000;
     border: 0px;
     padding: 10px;
     text-decoration: none;
@@ -75,11 +75,7 @@ footer .fa-whatsapp {
 }
 
 #contacto footer,
-#inicio footer {
-    color: white;
-}
-
-#contacto footer a,
+#inicio footer, #contacto footer a,
 #inicio footer a {
     color: white;
 }
@@ -176,10 +172,11 @@ footer a {
     font-weight: 600;
     font-size: 25px;
 }
-#sobre-mi .fotoperfil img {
-    height: 300px;
+#sobre-mi .foto-perfil{
+border-radius: 50%;
+height:250px; 
+width:255px;
 }
-
 #stack-tecnologico h2 {
     font-size: 24px;
     color: white;
